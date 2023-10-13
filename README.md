@@ -55,11 +55,11 @@ archivo.removeFile();
 ## Libreria
 La Libreria de FileX ofrece las siguientes funciones:
 
-createFile(ruta): Crea un nuevo archivo en la ruta especificada.
-writerFile(texto): Escribe el texto proporcionado en el archivo.
-readerFile(): Lee el contenido del archivo.
-moveFile(rutaDestino): Mueve el archivo actual a una nueva ubicación.
-removeFile(): Elimina el archivo actual.
+1. `createFile(ruta)`: Crea un nuevo archivo en la ruta especificada.
+2. `writerFile(texto)`: Escribe el texto proporcionado en el archivo.
+3. `readerFile()`: Lee el contenido del archivo.
+4. `moveFile(rutaDestino)`: Mueve el archivo actual a una nueva ubicación.
+5. `removeFile()`: Elimina el archivo actual.
 
 Para obtener más detalles sobre los métodos y ejemplos de uso, consulta la [documentación completa](https://github.com/GarcesSebastian/library-FileX/tree/main/docs).
 
