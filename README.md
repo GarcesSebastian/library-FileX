@@ -7,6 +7,7 @@ FileX es una biblioteca de Java que proporciona herramientas para el manejo de a
 - [Uso Básico](#uso-básico)
 - [Ejemplos](#ejemplos)
 - [Libreria](#libreria)
+- [Compatibilidad](#compatibilidad)
 - [Licencia](#licencia)
 
 ## Instalación
