@@ -27,8 +27,43 @@ Para comenzar a utilizar FileX en tu proyecto, sigue estos pasos:
 ```java
 import com.filex.filex;
 ```
+
 2. Crea una instancia de filex proporcionando la ruta del archivo que deseas manejar:
 ```java
 filex archivo = new filex("ruta/al/archivo.txt");
 ```
 
+3. Utiliza los métodos proporcionados por FileX para realizar operaciones en el archivo, como lectura, escritura, creación, movimiento y eliminación.
+
+## Ejemplos
+A continuación, te mostramos algunos ejemplos de uso de FileX:
+```java
+// Crear un nuevo archivo
+archivo.createFile("nuevo-archivo.txt");
+
+// Escribir en el archivo
+archivo.writerFile("Este es un ejemplo de texto.");
+
+// Leer el contenido del archivo
+String contenido = archivo.readerFile();
+System.out.println("Contenido del archivo: " + contenido);
+
+// Mover el archivo a una nueva ubicación
+archivo.moveFile("nueva-ruta/archivo.txt");
+
+// Eliminar el archivo
+archivo.removeFile();
+```
+## Libreria
+La Libreria de FileX ofrece las siguientes funciones:
+
+createFile(ruta): Crea un nuevo archivo en la ruta especificada.
+writerFile(texto): Escribe el texto proporcionado en el archivo.
+readerFile(): Lee el contenido del archivo.
+moveFile(rutaDestino): Mueve el archivo actual a una nueva ubicación.
+removeFile(): Elimina el archivo actual.
+
+Para obtener más detalles sobre los métodos y ejemplos de uso, consulta la [documentación completa](https://github.com/GarcesSebastian/library-FileX/tree/main/docs).
+
+## Licencia
+FileX se distribuye bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](https://github.com/GarcesSebastian/library-FileX/blob/main/LICENSE.txt).
