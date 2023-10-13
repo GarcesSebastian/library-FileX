@@ -63,5 +63,13 @@ La Libreria de FileX ofrece las siguientes funciones:
 
 Para obtener más detalles sobre los métodos y ejemplos de uso, consulta la [documentación completa](https://github.com/GarcesSebastian/library-FileX/tree/main/docs).
 
+## Compatibilidad
+
+FileX es compatible con:
+
+- Java 8 y versiones superiores.
+
+Asegúrate de utilizar una versión de Java que sea compatible con FileX en tu proyecto. Si tienes dudas sobre la compatibilidad con una versión específica, no dudes en consultar en la [sección de problemas de GitHub](https://github.com/GarcesSebastian/library-FileX/issues) para obtener asistencia.
+
 ## Licencia
 FileX se distribuye bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](https://github.com/GarcesSebastian/library-FileX/blob/main/LICENSE.txt).
