@@ -48,7 +48,7 @@ String contenido = archivo.readerFile();
 System.out.println("Contenido del archivo: " + contenido);
 
 // Copia el archivo a una nueva ubicación conservando el nombre
-archivo.copyFile("nueva-ruta/archivo.txt");
+archivo.copyFile("nueva-ruta/");
 
 // Mover el archivo a una nueva ubicación
 archivo.moveFile("nueva-ruta/archivo.txt");
