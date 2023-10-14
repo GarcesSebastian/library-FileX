@@ -50,8 +50,8 @@ System.out.println("Contenido del archivo: " + contenido);
 // Copia el archivo a una nueva ubicación conservando el nombre
 archivo.copyFile("nueva-ruta/");
 
-// Mover el archivo a una nueva ubicación
-archivo.moveFile("nueva-ruta/archivo.txt");
+// Mover el archivo a una nueva ubicación conservando el nombre
+archivo.moveFile("nueva-ruta/");
 
 // Eliminar el archivo
 archivo.removeFile();
@@ -63,7 +63,7 @@ La Libreria de FileX ofrece las siguientes funciones:
 2. `writerFile(texto)`: Escribe el texto proporcionado en el archivo.
 3. `readerFile()`: Lee el contenido del archivo.
 4. `copyFile(rutaDestino)`: Copia el archivo actual a una nueva ubicación conservando el nombre.
-5. `moveFile(rutaDestino)`: Mueve el archivo actual a una nueva ubicación.
+5. `moveFile(rutaDestino)`: Mueve el archivo actual a una nueva ubicación conservando el nombre.
 6. `removeFile()`: Elimina el archivo actual.
 
 Para obtener más detalles sobre los métodos y ejemplos de uso, consulta la [documentación completa](https://github.com/GarcesSebastian/library-FileX/tree/main/docs).
