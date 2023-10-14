@@ -1,6 +1,6 @@
 # FileX - Libreria de Manejo de Archivos
 
-FileX es una Libreria de Java que proporciona herramientas para el manejo de archivos. Puedes utilizar FileX para realizar operaciones comunes de lectura, escritura, creación, movimiento y eliminación de archivos en tus proyectos de Java.
+FileX es una Libreria de Java que proporciona herramientas para el manejo de archivos. Puedes utilizar FileX para realizar operaciones comunes de lectura, escritura, creación, copiar, movimiento y eliminación de archivos en tus proyectos de Java.
 
 ## Contenido
 - [Instalación](#instalación)
@@ -48,6 +48,9 @@ String contenido = archivo.readerFile();
 System.out.println("Contenido del archivo: " + contenido);
 
 // Mover el archivo a una nueva ubicación
+archivo.copyFile("nueva-ruta/archivo.txt");
+
+// Mover el archivo a una nueva ubicación
 archivo.moveFile("nueva-ruta/archivo.txt");
 
 // Eliminar el archivo
@@ -59,8 +62,9 @@ La Libreria de FileX ofrece las siguientes funciones:
 1. `createFile(ruta)`: Crea un nuevo archivo en la ruta especificada.
 2. `writerFile(texto)`: Escribe el texto proporcionado en el archivo.
 3. `readerFile()`: Lee el contenido del archivo.
-4. `moveFile(rutaDestino)`: Mueve el archivo actual a una nueva ubicación.
-5. `removeFile()`: Elimina el archivo actual.
+4. `copyFile(rutaDestino)`: Copia el archivo actual a una nueva ubicación.
+5. `moveFile(rutaDestino)`: Mueve el archivo actual a una nueva ubicación.
+6. `removeFile()`: Elimina el archivo actual.
 
 Para obtener más detalles sobre los métodos y ejemplos de uso, consulta la [documentación completa](https://github.com/GarcesSebastian/library-FileX/tree/main/docs).
 
