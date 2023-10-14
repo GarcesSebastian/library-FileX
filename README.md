@@ -47,7 +47,7 @@ archivo.writerFile("Este es un ejemplo de texto.");
 String contenido = archivo.readerFile();
 System.out.println("Contenido del archivo: " + contenido);
 
-// Copia el archivo a una nueva ubicación
+// Copia el archivo a una nueva ubicación conservando el nombre
 archivo.copyFile("nueva-ruta/archivo.txt");
 
 // Mover el archivo a una nueva ubicación
@@ -62,7 +62,7 @@ La Libreria de FileX ofrece las siguientes funciones:
 1. `createFile(ruta)`: Crea un nuevo archivo en la ruta especificada.
 2. `writerFile(texto)`: Escribe el texto proporcionado en el archivo.
 3. `readerFile()`: Lee el contenido del archivo.
-4. `copyFile(rutaDestino)`: Copia el archivo actual a una nueva ubicación.
+4. `copyFile(rutaDestino)`: Copia el archivo actual a una nueva ubicación conservando el nombre.
 5. `moveFile(rutaDestino)`: Mueve el archivo actual a una nueva ubicación.
 6. `removeFile()`: Elimina el archivo actual.
 
