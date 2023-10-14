@@ -47,7 +47,7 @@ archivo.writerFile("Este es un ejemplo de texto.");
 String contenido = archivo.readerFile();
 System.out.println("Contenido del archivo: " + contenido);
 
-// Mover el archivo a una nueva ubicación
+// Copia el archivo a una nueva ubicación
 archivo.copyFile("nueva-ruta/archivo.txt");
 
 // Mover el archivo a una nueva ubicación
