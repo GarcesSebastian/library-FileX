@@ -32,7 +32,7 @@ import com.filex.filex;
 filex archivo = new filex("ruta/al/archivo.txt");
 ```
 
-3. Utiliza los métodos proporcionados por FileX para realizar operaciones en el archivo, como lectura, escritura, creación, movimiento y eliminación.
+3. Utiliza los métodos proporcionados por FileX para realizar operaciones en el archivo, como lectura, escritura, creación, copiar, movimiento y eliminación.
 
 ## Ejemplos
 A continuación, te mostramos algunos ejemplos de uso de FileX:
